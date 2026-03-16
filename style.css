@@ -10,53 +10,34 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* NAVBAR ELEGANTE */
+/* NAVBAR ELEGANTE Y EL NUEVO LOGO */
 .bg-inverse {
   background-color: rgba(10, 10, 10, 0.95) !important;
   border-bottom: 2px solid #b8860b;
 }
-.navbar-brand {
-  color: #d4af37 !important;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-#header-img {
-  width: 28px;
-  margin-right: 12px;
+
+/* Este es el tamaño del banner ahora que es logo */
+#nav-logo {
+  height: 45px; 
+  width: auto;
+  margin-top: -5px; /* Lo centra un poquito mejor */
 }
 
-/* CARRUSEL ACHICADO */
-.carousel {
-  margin-bottom: 4rem;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.8);
-}
-.carousel-item {
-  height: 40vh; /* ¡ACÁ LO ACHICAMOS! Antes era 60vh */
-  min-height: 250px; /* Mínimo más bajo también */
-  background-color: #000;
-}
-.carousel-item > img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.6;
-}
-.carousel-caption {
-  bottom: 10%;
-  background: rgba(0, 0, 0, 0.7);
-  padding: 1.5rem; /* Un poco menos de padding para que no quede enorme */
-  border-radius: 10px;
-  border: 1px solid rgba(212, 175, 55, 0.3);
-  max-width: 600px;
+/* LA CAJA CENTRAL (REEMPLAZA AL CARRUSEL) */
+.hero-caja {
+  max-width: 800px;
   margin: 0 auto;
+  padding: 3rem 2rem;
+  border: 1px solid rgba(212, 175, 55, 0.4);
 }
-.carousel-caption h1, .carousel-caption h2 {
+
+.titulo-principal {
   color: #d4af37;
-  text-shadow: 2px 2px 4px #000;
-  margin-bottom: 0.5rem;
-}
-.carousel-caption p {
-  margin-bottom: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 5px #000;
+  margin-bottom: 1rem;
 }
 
 /* BOTONES PROFESIONALES */
@@ -67,7 +48,7 @@ body {
   transition: all 0.3s ease;
   font-weight: bold;
   margin: 5px;
-  padding: 8px 16px;
+  padding: 10px 20px;
   cursor: pointer;
 }
 .btn-secondary:hover {
@@ -76,13 +57,13 @@ body {
   border-color: #d4af37;
 }
 
-/* TARJETAS DE CONTENIDO */
+/* TARJETAS DE CONTENIDO OSCURAS */
 .glass-card {
-  background: rgba(20, 20, 20, 0.85);
+  background: rgba(15, 15, 15, 0.88); /* Bien oscurito para que se lea perfecto */
   border: 1px solid rgba(212, 175, 55, 0.2);
   border-radius: 12px;
   padding: 2rem;
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
   height: 100%;
   transition: transform 0.3s ease;
 }
