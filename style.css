@@ -1,10 +1,37 @@
+/* style.css - Helbreath Return Epic Theme */
+
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #5a5a5a;
+  /* --- CONFIGURACIÓN DEL FONDO ÉPICO --- */
+  /* Esta es la URL de tu imagen de fondo generada */
+  background-image: url("https://i.ibb.co/gZnTcLph/Gemini-Generated-Image-ulml1qulml1qulml.png");
+  
+  /* Asegura que la imagen cubra todo el espacio sin deformarse */
+  background-size: cover;
+  
+  /* Centra la imagen */
+  background-position: center;
+  
+  /* Evita que se repita */
+  background-repeat: no-repeat;
+  
+  /* Fija la imagen para un efecto "paralaje" épico (el fondo no se mueve al hacer scroll) */
+  background-attachment: fixed;
+  
+  /* --- COLOR DE TEXTO --- */
+  /* Cambiamos el color base del texto a blanco para contraste */
+  color: #ffffff;
+}
+
+/* --- RESALTADO DE TEXTO (SOMBRAS) --- */
+h1, h2, h3, h4, h5, p, .lead {
+  /* Añade una sombra negra suave para que el texto resalte sobre el fondo */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .shadow {
+  /* Mantenemos tu sombra personalizada también */
   text-shadow: 2px 2px 2px #000000;
 }
 
@@ -15,7 +42,10 @@ body {
 
 .carousel {
   margin-bottom: 4rem;
+  /* Hacemos el carrusel transparente para ver el fondo */
+  background-color: transparent;
 }
+
 .carousel-caption {
   z-index: 10;
   bottom: 3rem;
@@ -23,33 +53,20 @@ body {
 
 .carousel-item {
   height: 32rem;
-  /* --- COMIENZO DE LOS CAMBIOS --- */
-  /* Reemplazamos el color gris por tu imagen de fondo */
-  /* background-color: #777; */ /* Comentado */
-  
-  background-image: url("https://i.ibb.co/gZnTcLph/Gemini-Generated-Image-ulml1qulml1qulml.png");
-  
-  /* Aseguramos que la imagen cubra todo el espacio sin deformarse */
-  background-size: cover;
-  
-  /* Centramos la imagen */
-  background-position: center;
-  
-  /* Evitamos que se repita */
-  background-repeat: no-repeat;
-  /* --- FIN DE LOS CAMBIOS --- */
+  /* Hacemos el fondo del item transparente */
+  background-color: transparent;
 }
 
 /* Esta regla asegura que las imágenes individuales dentro del carrusel */
-/* (como tu banner.png) se adapten bien al fondo épico. */
+/* (como tu banner.png) se adapten bien. */
 .carousel-item > img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
   height: 32rem;
-  /* Opcional: añade un degradado para que el texto resalte */
-  /* opacity: 0.9; */
+  /* Opcional: añade un degradado o reduce la opacidad para que el texto resalte más */
+  /* opacity: 0.8; */
 }
 
 .marketing .col-lg-4 {
@@ -59,4 +76,39 @@ body {
 .marketing h2 {
   font-weight: normal;
 }
-.marketing
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+#email {
+  width: 200px;
+  margin-bottom: 15px;
+}
