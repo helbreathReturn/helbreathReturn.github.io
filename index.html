@@ -5,148 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Helbreath Return</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link href="./style.css" rel="stylesheet">
   <link rel="icon" href="https://forum.helbreathx.net/uploads/monthly_2018_01/5a5197b784738_Sinttulo-1.thumb.png.32891f91b140bf2d173e126bfe7a5762.png">
-  
-  <style>
-    /* FONDO ÉPICO GENERAL */
-    body {
-      padding-top: 54px; /* Espacio exacto de la navbar */
-      background-image: url("https://i.ibb.co/gZnTcLph/Gemini-Generated-Image-ulml1qulml1qulml.png");
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-      background-color: #111;
-      color: #eaeaea;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-    /* NAVBAR ELEGANTE */
-    .bg-inverse {
-      background-color: rgba(10, 10, 10, 0.95) !important;
-      border-bottom: 2px solid #b8860b; /* Borde dorado */
-    }
-    .navbar-brand {
-      color: #d4af37 !important; /* Texto dorado */
-      font-weight: bold;
-      letter-spacing: 1px;
-    }
-    #header-img {
-      width: 28px;
-      margin-right: 12px;
-    }
-
-    /* CARRUSEL ARREGLADO (CERO AMONTONAMIENTO) */
-    .carousel {
-      margin-bottom: 4rem;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.8);
-    }
-    .carousel-item {
-      height: 60vh; /* Altura adaptable a la pantalla */
-      min-height: 400px;
-      background-color: #000;
-    }
-    .carousel-item > img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover; /* Evita que la imagen se deforme */
-      opacity: 0.6; /* Oscurece la imagen para que se lea el texto */
-    }
-    .carousel-caption {
-      bottom: 10%;
-      background: rgba(0, 0, 0, 0.7); /* Caja oscura detrás del texto */
-      padding: 2rem;
-      border-radius: 10px;
-      border: 1px solid rgba(212, 175, 55, 0.3);
-      max-width: 700px;
-      margin: 0 auto;
-    }
-    .carousel-caption h1, .carousel-caption h2 {
-      color: #d4af37; /* Dorado */
-      text-shadow: 2px 2px 4px #000;
-      margin-bottom: 1rem;
-    }
-
-    /* BOTONES PROFESIONALES */
-    .btn-secondary {
-      background-color: transparent;
-      color: #d4af37;
-      border: 2px solid #d4af37;
-      transition: all 0.3s ease;
-      font-weight: bold;
-      margin: 5px;
-      padding: 10px 20px;
-      cursor: pointer;
-    }
-    .btn-secondary:hover {
-      background-color: #d4af37;
-      color: #000;
-      border-color: #d4af37;
-    }
-
-    /* TARJETAS DE CONTENIDO (EL TRUCO PARA QUE NO SE AMONTONE) */
-    .glass-card {
-      background: rgba(20, 20, 20, 0.85); /* Fondo oscuro translúcido */
-      border: 1px solid rgba(212, 175, 55, 0.2);
-      border-radius: 12px;
-      padding: 2rem;
-      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.6);
-      height: 100%;
-      transition: transform 0.3s ease;
-    }
-    .glass-card:hover {
-      transform: translateY(-5px); /* Pequeño efecto al pasar el mouse */
-      border-color: rgba(212, 175, 55, 0.6);
-    }
-
-    /* ESTILOS SECCIÓN STATS */
-    .marketing .col-lg-4 {
-      margin-bottom: 2rem;
-      text-align: center;
-    }
-    .stats-icon {
-      width: 120px;
-      height: auto;
-      margin-bottom: 1.5rem;
-      border-radius: 10px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-    }
-    h4 { color: #d4af37; font-weight: bold; }
-    h5 { color: #ccc; font-size: 1.1rem; line-height: 1.5;}
-
-    /* SECCIÓN VIDEO */
-    .featurette-heading {
-      color: #d4af37;
-      font-weight: bold;
-      margin-bottom: 1rem;
-    }
-    .video-container {
-      position: relative;
-      padding-bottom: 56.25%; /* Ratio 16:9 */
-      height: 0;
-      overflow: hidden;
-      border-radius: 10px;
-      box-shadow: 0 8px 30px rgba(0,0,0,0.8);
-      border: 1px solid rgba(212, 175, 55, 0.3);
-    }
-    .video-container iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-
-    /* FOOTER */
-    footer {
-      background: rgba(10, 10, 10, 0.9);
-      padding: 2rem 0;
-      margin-top: 3rem;
-      border-top: 1px solid #d4af37;
-      text-align: center;
-    }
-    footer p { margin: 0; color: #aaa; }
-    footer a { color: #d4af37; }
-  </style>
 </head>
 <body>
 
@@ -180,8 +40,8 @@
             <h2>Divertite como lo hacías antes</h2>
             <p>Recordemos juntos, tal cual lo hacíamos con nuestros amigos en esas batallas épicas.</p>
             <div class="mt-4">
-              <a class="btn btn-secondary" href="#" role="button" target="_blank">Full Game</a>
-              <a class="btn btn-secondary" href="#" role="button" target="_blank">Launcher</a>
+              <a class="btn btn-secondary" href="https://download1583.mediafire.com/ck8o5w4d1ksg7oMjXs26hQ8KwFz_i3y6v6lRBQAE2OSLjV4lzjqt78bxdAlGVxnW_eC21DJhK0OTAXCiaprkZHBmrtsjiEBiR3JIXSj0aLpYAuRQ6-G1eDAiYQRUiog3hsUrBqKwqEtg1LrfrReBa0FODKAB8jiHo0Q1QfdRWPOT8CeomA/st808nxz3f2qqh7/Helbreath+Return+Beta.zip" role="button" target="_blank">Full Game</a>
+              <a class="btn btn-secondary" href="https://download1349.mediafire.com/fa4xa1y9fi4gRimAXApAA4D6ol4PkqL5t09H-Rc9-IKUdh_ljfcKTFQWw3MEpZjA1n5UIVAFVHnjieDdwR9NFYwh079XFvcJim1M-oFc-rJXs2eNBRAcNICqEnM1ssVLqKurBt_hA7nMWkctALMhGVTVTYNi44TfC4xhnXkVMCFaczv7IA/dwzxksfhlvphvrw/LauncherHBReturn.exe" role="button" target="_blank">Launcher</a>
             </div>
           </div>
         </div>
@@ -193,8 +53,8 @@
             <h1>Armas Exclusivas</h1>
             <p>Completa quests o llena tu contador con EKs para conseguir armamento legendario inigualable.</p>
             <div class="mt-4">
-              <a class="btn btn-secondary" href="#" role="button" target="_blank">Full Game</a>
-              <a class="btn btn-secondary" href="#" role="button" target="_blank">Launcher</a>
+              <a class="btn btn-secondary" href="https://download1583.mediafire.com/ck8o5w4d1ksg7oMjXs26hQ8KwFz_i3y6v6lRBQAE2OSLjV4lzjqt78bxdAlGVxnW_eC21DJhK0OTAXCiaprkZHBmrtsjiEBiR3JIXSj0aLpYAuRQ6-G1eDAiYQRUiog3hsUrBqKwqEtg1LrfrReBa0FODKAB8jiHo0Q1QfdRWPOT8CeomA/st808nxz3f2qqh7/Helbreath+Return+Beta.zip" role="button" target="_blank">Full Game</a>
+              <a class="btn btn-secondary" href="https://download1349.mediafire.com/fa4xa1y9fi4gRimAXApAA4D6ol4PkqL5t09H-Rc9-IKUdh_ljfcKTFQWw3MEpZjA1n5UIVAFVHnjieDdwR9NFYwh079XFvcJim1M-oFc-rJXs2eNBRAcNICqEnM1ssVLqKurBt_hA7nMWkctALMhGVTVTYNi44TfC4xhnXkVMCFaczv7IA/dwzxksfhlvphvrw/LauncherHBReturn.exe" role="button" target="_blank">Launcher</a>
             </div>
           </div>
         </div>
@@ -248,7 +108,6 @@
         <div class="col-md-5 mb-4 mb-md-0">
           <h2 class="featurette-heading">Jugá Helbreath</h2>
           <p class="lead" style="color:#ddd;">Juego en línea MMORPG para PC, ambientado en un contexto legendario y medieval. Trata de dos ciudades en guerra, cada una sirviente de un Dios: <strong>Aresden</strong>, fieles al Dios Aresien y <strong>Elvine</strong>, del Dios Eldinel.</p>
-          <a class="btn btn-secondary mt-3" href="#" role="button">Descargar Ahora</a>
         </div>
         <div class="col-md-7">
           <div class="video-container">
@@ -270,60 +129,4 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
-</html>      </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-    </header>
-    <div class="container marketing" id="features">
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="rounded-circle" src="https://avatars.githubusercontent.com/u/13262450?s=280&v=4" alt="Synthesia Video" width="140" height="140">
-          <h4>Max Level / Max Stats</h4>
-          <h5>200 / 200</h5>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="rounded-circle" src="https://avatars.githubusercontent.com/u/13262450?s=280&v=4" alt="Sheet Music" width="140" height="140">
-          <h4>EK Count, Trade Ek & Contri</h4>
-          <h5>EK Count x 5</h5>
-          <h5>Completa quest o mata tus enemigos lo que más te divierta!</h5>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="rounded-circle" src="https://avatars.githubusercontent.com/u/13262450?s=280&v=4" alt="Generic placeholder image" width="140" height="140">
-          <h4>Experiencia y Drop Rate</h4>
-          <h5>Eventos:  Heldenian Real Battle/Crusade War/Apocalypse/Deathmatch</h5>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-      <hr class="featurette-divider">
-
-      <div class="row featurette" id="demo">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Juga Helbreath</h2>
-          <p class="lead">Juego en línea MMORPG para PC, ambientado en un contexto legendario y medieval. Trata de dos ciudades en guerra, cada una sirviente de un Dios, Aresden, fieles al Dios Aresien y Elvine, del Dios Eldinel.</p>
-        </div>
-        <div class="col-md-5">
-          <iframe width="510" height="265" id="video" src="https://www.youtube.com/embed/W3yz9ZxbKHQ" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-      <footer>
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; Copyright 2021 | Helbreath Return 
-        </p>
-      </footer>
-
-    </div><!-- /.container -->
-  
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-  </body>
 </html>
-
-
-
-
