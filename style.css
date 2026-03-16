@@ -1,122 +1,127 @@
-/* FONDO ÉPICO GENERAL */
-body {
-  padding-top: 54px;
-  background-image: url("https://i.ibb.co/gZnTcLph/Gemini-Generated-Image-ulml1qulml1qulml.png");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-color: #111;
-  color: #eaeaea;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Helbreath Return | Official Server</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  
+  <link href="./style.css" rel="stylesheet">
+  
+  <link rel="icon" href="https://forum.helbreathx.net/uploads/monthly_2018_01/5a5197b784738_Sinttulo-1.thumb.png.32891f91b140bf2d173e126bfe7a5762.png">
+</head>
+<body>
 
-/* NAVBAR ELEGANTE Y EL NUEVO LOGO */
-.bg-inverse {
-  background-color: rgba(10, 10, 10, 0.95) !important;
-  border-bottom: 2px solid #b8860b;
-}
+  <nav class="navbar navbar-toggleable-md fixed-top navbar-hb">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" style="background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(212, 175, 55, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");"></span>
+      </button>
+      
+      <a class="navbar-brand" href="#">
+        <img src="https://i.ibb.co/Z1mXKSjk/banner.png" alt="Helbreath Return" class="logo-banner">
+      </a>
+      
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#descargas">Descargas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Server Info</a></li>
+          <li class="nav-item"><a class="nav-link" href="#media">Media</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-/* Este es el tamaño del banner ahora que es logo */
-#nav-logo {
-  height: 45px; 
-  width: auto;
-  margin-top: -5px; /* Lo centra un poquito mejor */
-}
+  <header class="hero-section" id="descargas">
+    <div class="container text-center text-md-left">
+      <div class="row align-items-center">
+        <div class="col-md-7">
+          <div class="hero-content">
+            <span class="badge-beta">OPEN BETA DISPONIBLE</span>
+            <h1 class="hero-title">Divertite como lo hacías antes</h1>
+            <p class="hero-text">Recordemos juntos, tal cual lo hacíamos con nuestros amigos en batallas épicas. Elegí tu facción, completá quests y dominá el campo de batalla de Aresden y Elvine.</p>
+            
+            <div class="botones-descarga">
+              <a href="https://download1583.mediafire.com/ck8o5w4d1ksg7oMjXs26hQ8KwFz_i3y6v6lRBQAE2OSLjV4lzjqt78bxdAlGVxnW_eC21DJhK0OTAXCiaprkZHBmrtsjiEBiR3JIXSj0aLpYAuRQ6-G1eDAiYQRUiog3hsUrBqKwqEtg1LrfrReBa0FODKAB8jiHo0Q1QfdRWPOT8CeomA/st808nxz3f2qqh7/Helbreath+Return+Beta.zip" class="btn btn-gold btn-lg" target="_blank">
+                Descargar Full Game
+              </a>
+              <a href="https://download1349.mediafire.com/fa4xa1y9fi4gRimAXApAA4D6ol4PkqL5t09H-Rc9-IKUdh_ljfcKTFQWw3MEpZjA1n5UIVAFVHnjieDdwR9NFYwh079XFvcJim1M-oFc-rJXs2eNBRAcNICqEnM1ssVLqKurBt_hA7nMWkctALMhGVTVTYNi44TfC4xhnXkVMCFaczv7IA/dwzxksfhlvphvrw/LauncherHBReturn.exe" class="btn btn-outline-gold btn-lg" target="_blank">
+                Descargar Launcher
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 
-/* LA CAJA CENTRAL (REEMPLAZA AL CARRUSEL) */
-.hero-caja {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 3rem 2rem;
-  border: 1px solid rgba(212, 175, 55, 0.4);
-}
+  <section class="features-section" id="features">
+    <div class="container">
+      <h2 class="section-title text-center">Características del Servidor</h2>
+      <div class="row text-center mt-5">
+        
+        <div class="col-lg-4 mb-4">
+          <div class="feature-card">
+            <div class="icon-wrapper">
+              <img src="https://i.ibb.co/Z2n8wM3/scroll-placeholder.png" alt="Max Stats" class="img-fluid" style="height: 80px; filter: brightness(0) invert(0.8) sepia(1) hue-rotate(5deg) saturate(3);">
+            </div>
+            <h3 class="feature-title">Max Level / Stats</h3>
+            <p class="feature-desc">Alcanzá tu máximo potencial. Nivel máximo establecido en <strong>200</strong> y estadísticas topadas en <strong>200</strong> para combates equilibrados.</p>
+          </div>
+        </div>
 
-.titulo-principal {
-  color: #d4af37;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-shadow: 2px 2px 5px #000;
-  margin-bottom: 1rem;
-}
+        <div class="col-lg-4 mb-4">
+          <div class="feature-card">
+            <div class="icon-wrapper">
+              <img src="https://i.ibb.co/Z2n8wM3/scroll-placeholder.png" alt="EK Count" class="img-fluid" style="height: 80px; filter: brightness(0) invert(0.8) sepia(1) hue-rotate(5deg) saturate(3);">
+            </div>
+            <h3 class="feature-title">EK Count & Trade</h3>
+            <p class="feature-desc">Sistema de <strong>EK Count x5</strong>. Completá quests o aniquilá a tus enemigos de facción contraria, ¡jugá como más te divierta!</p>
+          </div>
+        </div>
 
-/* BOTONES PROFESIONALES */
-.btn-secondary {
-  background-color: transparent;
-  color: #d4af37;
-  border: 2px solid #d4af37;
-  transition: all 0.3s ease;
-  font-weight: bold;
-  margin: 5px;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-.btn-secondary:hover {
-  background-color: #d4af37;
-  color: #000;
-  border-color: #d4af37;
-}
+        <div class="col-lg-4 mb-4">
+          <div class="feature-card">
+            <div class="icon-wrapper">
+              <img src="https://i.ibb.co/Z2n8wM3/scroll-placeholder.png" alt="Eventos" class="img-fluid" style="height: 80px; filter: brightness(0) invert(0.8) sepia(1) hue-rotate(5deg) saturate(3);">
+            </div>
+            <h3 class="feature-title">Eventos Activos</h3>
+            <p class="feature-desc">Guerras constantes: Heldenian Real Battle, Crusade War, Apocalypse y Deathmatch. La gloria te espera.</p>
+          </div>
+        </div>
 
-/* TARJETAS DE CONTENIDO OSCURAS */
-.glass-card {
-  background: rgba(15, 15, 15, 0.88); /* Bien oscurito para que se lea perfecto */
-  border: 1px solid rgba(212, 175, 55, 0.2);
-  border-radius: 12px;
-  padding: 2rem;
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
-  height: 100%;
-  transition: transform 0.3s ease;
-}
-.glass-card:hover {
-  transform: translateY(-5px);
-  border-color: rgba(212, 175, 55, 0.6);
-}
+      </div>
+    </div>
+  </section>
 
-/* ESTILOS SECCIÓN STATS */
-.marketing .col-lg-4 {
-  margin-bottom: 2rem;
-  text-align: center;
-}
-.stats-icon {
-  width: 120px;
-  height: auto;
-  margin-bottom: 1.5rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-}
-h4 { color: #d4af37; font-weight: bold; font-size: 1.2rem; }
-h5 { color: #ccc; font-size: 1rem; line-height: 1.5;}
+  <section class="media-section" id="media">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-5 mb-4 mb-lg-0">
+          <h2 class="section-title">El Regreso a la Guerra</h2>
+          <p class="media-text">Un MMORPG legendario ambientado en un universo medieval oscuro. Dos facciones en conflicto eterno: Los fieros guerreros de <strong>Aresden</strong> (servidores de Aresien) y los místicos defensores de <strong>Elvine</strong> (fieles a Eldinel). ¿De qué lado estarás?</p>
+        </div>
+        <div class="col-lg-7">
+          <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/W3yz9ZxbKHQ" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-/* SECCIÓN VIDEO */
-.featurette-heading {
-  color: #d4af37;
-  font-weight: bold;
-  margin-bottom: 1rem;
-}
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 8px 30px rgba(0,0,0,0.8);
-  border: 1px solid rgba(212, 175, 55, 0.3);
-}
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
+  <footer class="footer-hb">
+    <div class="container text-center">
+      <img src="https://i.ibb.co/Z1mXKSjk/banner.png" alt="Helbreath Return" class="footer-logo mb-3">
+      <p class="copyright">&copy; 2024 Helbreath Return Server. Todos los derechos reservados.</p>
+    </div>
+  </footer>
 
-/* FOOTER */
-footer {
-  background: rgba(10, 10, 10, 0.9);
-  padding: 2rem 0;
-  margin-top: 3rem;
-  border-top: 1px solid #d4af37;
-  text-align: center;
-}
-footer p { margin: 0; color: #aaa; }
-footer a { color: #d4af37; }
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
