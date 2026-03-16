@@ -1,127 +1,278 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Helbreath Return | Official Server</title>
-  
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  
-  <link href="./style.css" rel="stylesheet">
-  
-  <link rel="icon" href="https://forum.helbreathx.net/uploads/monthly_2018_01/5a5197b784738_Sinttulo-1.thumb.png.32891f91b140bf2d173e126bfe7a5762.png">
-</head>
-<body>
+/* ==========================================================================
+   HELBREATH RETURN - OFFICIAL SERVER THEME
+   ========================================================================== */
 
-  <nav class="navbar navbar-toggleable-md fixed-top navbar-hb">
-    <div class="container">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon" style="background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(212, 175, 55, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");"></span>
-      </button>
-      
-      <a class="navbar-brand" href="#">
-        <img src="https://i.ibb.co/Z1mXKSjk/banner.png" alt="Helbreath Return" class="logo-banner">
-      </a>
-      
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="#descargas">Descargas</a></li>
-          <li class="nav-item"><a class="nav-link" href="#features">Server Info</a></li>
-          <li class="nav-item"><a class="nav-link" href="#media">Media</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+/* --- CONFIGURACIÓN GLOBAL --- */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #e0e0e0;
+  background-color: #080808; /* Fondo de seguridad ultra oscuro */
+  background-image: url("https://i.ibb.co/gZnTcLph/Gemini-Generated-Image-ulml1qulml1qulml.png");
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
 
-  <header class="hero-section" id="descargas">
-    <div class="container text-center text-md-left">
-      <div class="row align-items-center">
-        <div class="col-md-7">
-          <div class="hero-content">
-            <span class="badge-beta">OPEN BETA DISPONIBLE</span>
-            <h1 class="hero-title">Divertite como lo hacías antes</h1>
-            <p class="hero-text">Recordemos juntos, tal cual lo hacíamos con nuestros amigos en batallas épicas. Elegí tu facción, completá quests y dominá el campo de batalla de Aresden y Elvine.</p>
-            
-            <div class="botones-descarga">
-              <a href="https://download1583.mediafire.com/ck8o5w4d1ksg7oMjXs26hQ8KwFz_i3y6v6lRBQAE2OSLjV4lzjqt78bxdAlGVxnW_eC21DJhK0OTAXCiaprkZHBmrtsjiEBiR3JIXSj0aLpYAuRQ6-G1eDAiYQRUiog3hsUrBqKwqEtg1LrfrReBa0FODKAB8jiHo0Q1QfdRWPOT8CeomA/st808nxz3f2qqh7/Helbreath+Return+Beta.zip" class="btn btn-gold btn-lg" target="_blank">
-                Descargar Full Game
-              </a>
-              <a href="https://download1349.mediafire.com/fa4xa1y9fi4gRimAXApAA4D6ol4PkqL5t09H-Rc9-IKUdh_ljfcKTFQWw3MEpZjA1n5UIVAFVHnjieDdwR9NFYwh079XFvcJim1M-oFc-rJXs2eNBRAcNICqEnM1ssVLqKurBt_hA7nMWkctALMhGVTVTYNi44TfC4xhnXkVMCFaczv7IA/dwzxksfhlvphvrw/LauncherHBReturn.exe" class="btn btn-outline-gold btn-lg" target="_blank">
-                Descargar Launcher
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+/* Tipografía para títulos épicos */
+h1, h2, h3, h4, h5, .navbar-brand {
+  font-family: 'Cinzel', serif;
+}
 
-  <section class="features-section" id="features">
-    <div class="container">
-      <h2 class="section-title text-center">Características del Servidor</h2>
-      <div class="row text-center mt-5">
-        
-        <div class="col-lg-4 mb-4">
-          <div class="feature-card">
-            <div class="icon-wrapper">
-              <img src="https://i.ibb.co/Z2n8wM3/scroll-placeholder.png" alt="Max Stats" class="img-fluid" style="height: 80px; filter: brightness(0) invert(0.8) sepia(1) hue-rotate(5deg) saturate(3);">
-            </div>
-            <h3 class="feature-title">Max Level / Stats</h3>
-            <p class="feature-desc">Alcanzá tu máximo potencial. Nivel máximo establecido en <strong>200</strong> y estadísticas topadas en <strong>200</strong> para combates equilibrados.</p>
-          </div>
-        </div>
+/* --- BARRA DE NAVEGACIÓN (NAVBAR) --- */
+.navbar-hb {
+  background-color: rgba(10, 10, 10, 0.95);
+  border-bottom: 2px solid #b38b36;
+  padding: 15px 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.9);
+  transition: all 0.3s ease;
+}
 
-        <div class="col-lg-4 mb-4">
-          <div class="feature-card">
-            <div class="icon-wrapper">
-              <img src="https://i.ibb.co/Z2n8wM3/scroll-placeholder.png" alt="EK Count" class="img-fluid" style="height: 80px; filter: brightness(0) invert(0.8) sepia(1) hue-rotate(5deg) saturate(3);">
-            </div>
-            <h3 class="feature-title">EK Count & Trade</h3>
-            <p class="feature-desc">Sistema de <strong>EK Count x5</strong>. Completá quests o aniquilá a tus enemigos de facción contraria, ¡jugá como más te divierta!</p>
-          </div>
-        </div>
+.logo-banner {
+  height: 40px; /* Tamaño perfecto para el logo metálico */
+  width: auto;
+  transition: transform 0.3s ease;
+}
 
-        <div class="col-lg-4 mb-4">
-          <div class="feature-card">
-            <div class="icon-wrapper">
-              <img src="https://i.ibb.co/Z2n8wM3/scroll-placeholder.png" alt="Eventos" class="img-fluid" style="height: 80px; filter: brightness(0) invert(0.8) sepia(1) hue-rotate(5deg) saturate(3);">
-            </div>
-            <h3 class="feature-title">Eventos Activos</h3>
-            <p class="feature-desc">Guerras constantes: Heldenian Real Battle, Crusade War, Apocalypse y Deathmatch. La gloria te espera.</p>
-          </div>
-        </div>
+.logo-banner:hover {
+  transform: scale(1.05);
+}
 
-      </div>
-    </div>
-  </section>
+.nav-link {
+  color: #e0e0e0 !important;
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
 
-  <section class="media-section" id="media">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-5 mb-4 mb-lg-0">
-          <h2 class="section-title">El Regreso a la Guerra</h2>
-          <p class="media-text">Un MMORPG legendario ambientado en un universo medieval oscuro. Dos facciones en conflicto eterno: Los fieros guerreros de <strong>Aresden</strong> (servidores de Aresien) y los místicos defensores de <strong>Elvine</strong> (fieles a Eldinel). ¿De qué lado estarás?</p>
-        </div>
-        <div class="col-lg-7">
-          <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/W3yz9ZxbKHQ" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+.nav-link:hover {
+  color: #d4af37 !important;
+  text-shadow: 0 0 8px rgba(212, 175, 55, 0.6);
+}
 
-  <footer class="footer-hb">
-    <div class="container text-center">
-      <img src="https://i.ibb.co/Z1mXKSjk/banner.png" alt="Helbreath Return" class="footer-logo mb-3">
-      <p class="copyright">&copy; 2024 Helbreath Return Server. Todos los derechos reservados.</p>
-    </div>
-  </footer>
+/* --- SECCIÓN HERO (LA PRIMERA PANTALLA) --- */
+.hero-section {
+  padding-top: 180px;
+  padding-bottom: 120px;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0) 100%);
+}
 
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
-</body>
-</html>
+.hero-content {
+  background: rgba(15, 15, 15, 0.75);
+  padding: 40px;
+  border-radius: 8px;
+  border-left: 4px solid #d4af37;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+}
+
+.badge-beta {
+  background-color: #8b0000;
+  color: #fff;
+  padding: 5px 12px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-bottom: 15px;
+  border: 1px solid #ff4500;
+}
+
+.hero-title {
+  color: #d4af37;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  text-shadow: 2px 2px 8px #000;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  margin-bottom: 35px;
+  color: #dcdcdc;
+  text-shadow: 1px 1px 3px #000;
+}
+
+/* --- BOTONES PROFESIONALES --- */
+.botones-descarga {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn-gold {
+  background: linear-gradient(to bottom, #d4af37, #aa801e);
+  color: #000;
+  border: 1px solid #ffd700;
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  padding: 12px 30px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+}
+
+.btn-gold:hover {
+  background: linear-gradient(to bottom, #ffd700, #cba031);
+  color: #000;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.5);
+}
+
+.btn-outline-gold {
+  background: transparent;
+  color: #d4af37;
+  border: 2px solid #d4af37;
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  padding: 12px 30px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-gold:hover {
+  background: rgba(212, 175, 55, 0.1);
+  color: #fff;
+  border-color: #fff;
+  transform: translateY(-2px);
+}
+
+/* --- SECCIÓN CARACTERÍSTICAS (TARJETAS) --- */
+.features-section {
+  padding: 80px 0;
+  background-color: rgba(5, 5, 5, 0.85); /* Fondo oscuro general para esta banda */
+  border-top: 1px solid rgba(212, 175, 55, 0.2);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.section-title {
+  color: #d4af37;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px #000;
+  margin-bottom: 20px;
+}
+
+.feature-card {
+  background: linear-gradient(145deg, #161616, #0a0a0a);
+  border: 1px solid #333;
+  padding: 30px 20px;
+  border-radius: 8px;
+  height: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  border-color: #d4af37;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.8), 0 0 15px rgba(212, 175, 55, 0.2);
+}
+
+.icon-wrapper {
+  margin-bottom: 20px;
+}
+
+.feature-title {
+  color: #fff;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 10px;
+}
+
+.feature-desc {
+  color: #aaa;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* --- SECCIÓN MEDIA (VIDEO) --- */
+.media-section {
+  padding: 100px 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.media-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ccc;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 2px solid #333;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.9);
+  transition: border-color 0.3s ease;
+}
+
+.video-wrapper:hover {
+  border-color: #d4af37;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* --- FOOTER --- */
+.footer-hb {
+  background-color: #050505;
+  padding: 40px 0 20px;
+  border-top: 2px solid #b38b36;
+}
+
+.footer-logo {
+  height: 35px;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.footer-logo:hover {
+  opacity: 1;
+}
+
+.copyright {
+  color: #555;
+  font-size: 0.85rem;
+  margin-top: 15px;
+}
+
+/* RESPONSIVE AJUSTES */
+@media (max-width: 768px) {
+  .hero-section {
+    padding-top: 120px;
+    background: rgba(0,0,0,0.8); /* Más oscuro en celular para leer bien */
+    text-align: center;
+  }
+  .hero-content {
+    border-left: none;
+    border-top: 4px solid #d4af37;
+  }
+  .botones-descarga {
+    justify-content: center;
+  }
+}
