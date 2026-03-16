@@ -1,6 +1,6 @@
 /* FONDO ÉPICO GENERAL */
 body {
-  padding-top: 54px; /* Espacio exacto de la navbar */
+  padding-top: 54px;
   background-image: url("https://i.ibb.co/gZnTcLph/Gemini-Generated-Image-ulml1qulml1qulml.png");
   background-size: cover;
   background-position: center;
@@ -13,10 +13,10 @@ body {
 /* NAVBAR ELEGANTE */
 .bg-inverse {
   background-color: rgba(10, 10, 10, 0.95) !important;
-  border-bottom: 2px solid #b8860b; /* Borde dorado */
+  border-bottom: 2px solid #b8860b;
 }
 .navbar-brand {
-  color: #d4af37 !important; /* Texto dorado */
+  color: #d4af37 !important;
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -25,35 +25,38 @@ body {
   margin-right: 12px;
 }
 
-/* CARRUSEL ARREGLADO (CERO AMONTONAMIENTO) */
+/* CARRUSEL ACHICADO */
 .carousel {
   margin-bottom: 4rem;
   box-shadow: 0 10px 30px rgba(0,0,0,0.8);
 }
 .carousel-item {
-  height: 60vh; /* Altura adaptable a la pantalla */
-  min-height: 400px;
+  height: 40vh; /* ¡ACÁ LO ACHICAMOS! Antes era 60vh */
+  min-height: 250px; /* Mínimo más bajo también */
   background-color: #000;
 }
 .carousel-item > img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Evita que la imagen se deforme */
-  opacity: 0.6; /* Oscurece la imagen para que se lea el texto */
+  object-fit: cover;
+  opacity: 0.6;
 }
 .carousel-caption {
   bottom: 10%;
-  background: rgba(0, 0, 0, 0.7); /* Caja oscura detrás del texto */
-  padding: 2rem;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1.5rem; /* Un poco menos de padding para que no quede enorme */
   border-radius: 10px;
   border: 1px solid rgba(212, 175, 55, 0.3);
-  max-width: 700px;
+  max-width: 600px;
   margin: 0 auto;
 }
 .carousel-caption h1, .carousel-caption h2 {
-  color: #d4af37; /* Dorado */
+  color: #d4af37;
   text-shadow: 2px 2px 4px #000;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+}
+.carousel-caption p {
+  margin-bottom: 0;
 }
 
 /* BOTONES PROFESIONALES */
@@ -64,7 +67,7 @@ body {
   transition: all 0.3s ease;
   font-weight: bold;
   margin: 5px;
-  padding: 10px 20px;
+  padding: 8px 16px;
   cursor: pointer;
 }
 .btn-secondary:hover {
@@ -73,9 +76,9 @@ body {
   border-color: #d4af37;
 }
 
-/* TARJETAS DE CONTENIDO (EL TRUCO PARA QUE NO SE AMONTONE) */
+/* TARJETAS DE CONTENIDO */
 .glass-card {
-  background: rgba(20, 20, 20, 0.85); /* Fondo oscuro translúcido */
+  background: rgba(20, 20, 20, 0.85);
   border: 1px solid rgba(212, 175, 55, 0.2);
   border-radius: 12px;
   padding: 2rem;
@@ -84,7 +87,7 @@ body {
   transition: transform 0.3s ease;
 }
 .glass-card:hover {
-  transform: translateY(-5px); /* Pequeño efecto al pasar el mouse */
+  transform: translateY(-5px);
   border-color: rgba(212, 175, 55, 0.6);
 }
 
@@ -100,8 +103,8 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.5);
 }
-h4 { color: #d4af37; font-weight: bold; }
-h5 { color: #ccc; font-size: 1.1rem; line-height: 1.5;}
+h4 { color: #d4af37; font-weight: bold; font-size: 1.2rem; }
+h5 { color: #ccc; font-size: 1rem; line-height: 1.5;}
 
 /* SECCIÓN VIDEO */
 .featurette-heading {
@@ -111,7 +114,7 @@ h5 { color: #ccc; font-size: 1.1rem; line-height: 1.5;}
 }
 .video-container {
   position: relative;
-  padding-bottom: 56.25%; /* Ratio 16:9 */
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   border-radius: 10px;
@@ -135,52 +138,4 @@ footer {
   text-align: center;
 }
 footer p { margin: 0; color: #aaa; }
-footer a { color: #d4af37; }  min-width: 100%;
-  height: 32rem;
-  /* Opcional: añade un degradado o reduce la opacidad para que el texto resalte más */
-  /* opacity: 0.8; */
-}
-
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-.marketing h2 {
-  font-weight: normal;
-}
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
-}
-
-.featurette-divider {
-  margin: 5rem 0;
-}
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -.05rem;
-}
-
-@media (min-width: 40em) {
-  .carousel-caption p {
-    margin-bottom: 1.25rem;
-    font-size: 1.25rem;
-    line-height: 1.4;
-  }
-
-  .featurette-heading {
-    font-size: 50px;
-  }
-}
-
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
-}
-
-#email {
-  width: 200px;
-  margin-bottom: 15px;
-}
+footer a { color: #d4af37; }
